@@ -5,6 +5,7 @@
 #include <stdio.h>
 int sum_them_all(const unsigned int n, ...);
 int _putchar(char c);
+void print_numbers(const char *separator, const unsigned int n, ...);
 /**
 * struct print - A new struct type defining our print
 * @symbol: Our symbol representing the data type
